@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All rights reserved"
+
+[[mods]]
+modId="knyui"
+version="1.0.0"
+displayName="Kimetsu UI"
+description='''Красивый интерфейс персонажа, дыханий и характеристик для мода Kimetsu no Yaiba.'''
+
+[[dependencies.knyui]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.knyui]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.knyui]]
+    modId="kimetsunoyaiba"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
